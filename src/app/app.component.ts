@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
+import { ColorMode, getColor } from 'src/utils/colors/ColorsEngine';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'blaldas.github.io';
+
+  
+constructor(private elementRef: ElementRef) {}
+
+  ngAfterViewInit() {
+
+    const backgoundColor = getColor('background_blue', ColorMode.dark);
+    
+    this.elementRef.nativeElement.ownerDocument
+        .body.style.backgroundColor = backgoundColor;
+  }
 }
