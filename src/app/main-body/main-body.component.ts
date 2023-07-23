@@ -12,7 +12,7 @@ export class MainBodyComponent implements OnInit {
   subtitle_prefix = 'I\'m a'
   subtitle_role = 'Software Engineer';
   curly_open = '{';
-  curly_close = '};';
+  curly_close = '}';
 
   educationSection: Education[] = [];
 

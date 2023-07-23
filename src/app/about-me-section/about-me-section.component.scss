@@ -1,11 +1,13 @@
 .text-zone {
-    border-left: 2px solid #425677;
+    border-left: 1px solid #425677;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 .text{
-    padding-left: 20px;
+    padding-left: 30px;
     text-align: justify;
-    width: 80%;
+    width: 90%;
 }
 
 .white-text {
@@ -15,3 +17,8 @@
 .subtitle {
     color: #2AB6DD;
 }
+
+* {
+    font-size: 18px;
+}
+

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Education } from 'src/utils/models/section';
 
 @Component({
   selector: 'app-education-section',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationSectionComponent implements OnInit {
 
+  @Input() data: Education[] = [];
   constructor() { }
 
   ngOnInit(): void {

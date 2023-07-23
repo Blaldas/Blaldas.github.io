@@ -1,28 +1,32 @@
-p{
-    color: aliceblue;
-}
-
 .title {
+    font-size: 64px;
     height: 50px;
-    font-size: 45px;
 }
 
 .sub-title{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .role{
-    color: yellow;
+    color: #EFD0AF;
 }
 
 .big-curly__open{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .big-curly__close{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .body{
     margin-left: 30px;
+}
+
+p{
+    color: white;
+}
+
+.regular-font {
+    font-family: 'Source Code Pro Regular', monospace /* Replace with your custom font */, sans-serif; 
 }
