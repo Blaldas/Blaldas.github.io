@@ -75,7 +75,7 @@ export class MainBodyComponent implements OnInit {
   createEducationSectionData(){
   //education
   this.educationSection.push({
-    title: "Bachlor's Degree -  Computer Engineer",
+    title: "Bachelor's Degree -  Computer Engineer",
     period: "09/2018 - 09/2021",
     place:"Polytechnic Institute of Coimbra",
     grade: "14",

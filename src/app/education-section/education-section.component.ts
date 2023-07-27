@@ -9,6 +9,10 @@ import { Education } from 'src/utils/models/section';
 export class EducationSectionComponent implements OnInit {
 
   @Input() data: Education[] = [];
+
+  sectionName = "Education";
+  curly_open = ' {';
+  curly_close = '}';
   constructor() { }
 
   ngOnInit(): void {

@@ -1,0 +1,20 @@
+<div>
+    <p><span class="subtitle">{{sectionName}}</span> <span class="curly curly_open">{{curly_open}}</span></p>
+</div>
+<div class="text-zone text">
+    <table>
+        <div *ngFor="let ed of data">
+            <tr>
+                <td  class="first_col title" >{{ed.title}}</td>
+                <td  class="place">{{ed.place}}</td>
+            </tr>
+            <tr>
+                <td class="first_col grade">// {{ed.grade}}</td>
+                <td class="period">{{ed.period}}</td>
+            </tr>
+        </div>
+    </table>
+</div>
+<div>
+    <p class="curly">{{curly_close}}</p>
+</div>
