@@ -1,10 +1,10 @@
 .text-zone {
     border-left: 1px solid #425677;
     margin-top: -10px;
-    margin-bottom: -10px;
+    
 }
 
-.text{
+.text {
     padding-left: 30px;
 }
 
@@ -16,7 +16,8 @@
     font-size: 18px;
 }
 
-table, tr{
+table,
+tr {
     width: 100%;
 }
 
@@ -24,23 +25,44 @@ table, tr{
     width: 900px;
 }
 
+
 .sec_col {
     width: 80%;
 }
 
-.title, .curly{
+
+.title,
+.curly {
     color: #ffff;
 }
 
-.place{
-    color: #6EEAB7;
+.curly_close {
+    margin-top: 0;
 }
 
-.grade{
-    color:  #425677;
+.place {
+    color: #6EEAB7;
+    padding-left: 37px;
+}
+
+.task {
+    color: #425677;
     padding-left: 30px;
 }
 
-.period{
+.period {
     color: #EFD0AF;
+}
+
+.roles_list{
+    padding-left: 30px;
+}
+
+.vert_line{
+    border-left: 1px solid #425677;
+    margin-left: 0px;
+}
+
+.main_table {
+   border-collapse: collapse;
 }

@@ -1,14 +1,17 @@
-<div class="body">
-    <div class="title regular-font">
-        <p>{{title}}</p>
-    </div>
-    <div class="sub-title regular-font">
-        <p>{{subtitle_prefix}} <span class="role">{{subtitle_role}}</span><span
-                class="big-curly__open">{{curly_open}}</span></p>
-    </div>
+<div class="body_full">
+    <div class="body">
+        <div class="title regular-font">
+            <p>{{title}}</p>
+        </div>
+        <div class="sub-title regular-font">
+            <p>{{subtitle_prefix}} <span class="role">{{subtitle_role}}</span><span
+                    class="big-curly__open">{{curly_open}}</span></p>
+        </div>
 
-    <app-about-me-section></app-about-me-section>
-    <app-education-section [data]="educationSection"></app-education-section>
-
-    <p class="big-curly__close regular-font">{{curly_close}}</p>
+        <app-about-me-section></app-about-me-section>
+        <app-education-section [data]="educationSection"></app-education-section>
+        <app-work-experience [data]="workXpSection" ></app-work-experience>
+        
+        <p class="big-curly__close regular-font">{{curly_close}}</p>
+    </div>
 </div>

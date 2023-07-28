@@ -4,3 +4,15 @@ export type Education = {
     grade?: string;
     period?: string;
 }
+
+export type WorkXpSection = {
+    title: string;
+    place: string;
+    roles: Role [];
+}
+
+export type Role = {
+    name: string;
+    period: string;
+    tasks: string[]
+}

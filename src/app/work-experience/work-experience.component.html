@@ -1,0 +1,27 @@
+<div>
+    <p><span class="subtitle">{{sectionName}}</span> <span class="curly curly_open">{{curly_open}}</span></p>
+</div>
+<div class="text-zone text">
+    <table class="main_table ">
+        <div *ngFor="let title of data" class="main_table_div">
+            <tr>
+                <td class="first_col title">{{title.title}}{{curly_open}}</td>
+                <td class="place">{{title.place}}</td>
+            </tr>
+            <table class="vert_line">
+                <div *ngFor="let role of title.roles" class="roles_list">
+                    <tr>
+                        <td class="first_col title">{{role.name}}</td>
+                        <td class="period">{{role.period}}</td>
+                    </tr>
+                    <div class="task">
+                        <tr *ngFor="let task of role.tasks" class="task">{{task}}</tr>
+                    </div>
+                    <div *ngIf="isLastRole(title, role)"> <br></div>
+                </div>
+            </table>
+        </div>
+        <p class="curly curly_close">{{curly_close}}</p>
+    </table>
+</div>
+<p class="curly curly_close">{{curly_close}}</p>
