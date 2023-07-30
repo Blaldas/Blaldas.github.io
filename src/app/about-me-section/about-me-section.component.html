@@ -1,9 +1,11 @@
-<div>
-    <p><span class="subtitle">{{sectionName}}</span> <span class="white-text curly_open">{{curly_open}}</span></p>
-</div>
-<div class="text-zone">
-    <div class="text white-text">{{sectionText}}</div>
-</div>
-<div>
-    <p class="white-text">{{curly_close}}</p>
-</div>
+    <div>
+        <p><span class="subtitle">{{sectionName}}</span> <span class="white-text curly_open">{{curly_open}}</span></p>
+    </div>
+    <div class="text-zone">
+        <div *ngFor="let sect of sectionText" class="text white-text">
+            <div class="sentence">{{sect}}</div>
+        </div>
+    </div>
+    <div>
+        <p class="white-text">{{curly_close}}</p>
+    </div>
