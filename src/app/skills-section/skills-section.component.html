@@ -1,0 +1,12 @@
+<div>
+    <p><span class="subtitle">{{sectionName}}</span> <span class="curly">{{curly_open}}</span></p>
+</div>
+<div class="skill_list">
+    <span *ngFor="let skill of data;  let i = index">
+        <span *ngIf="i !== 0" class="separator"> | </span>
+        <span [ngClass]="getClassByIndex(i)">{{skill}}</span>
+    </span>
+</div>
+<div>
+    <p class="curly">{{curly_close}}</p>
+</div>

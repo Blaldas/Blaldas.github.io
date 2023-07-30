@@ -16,6 +16,7 @@ export class MainBodyComponent implements OnInit {
 
   educationSection: Education[] = [];
   workXpSection: WorkXpSection[] = []
+  skillsSection: string[] = [];
 
   constructor() {
 
@@ -73,7 +74,18 @@ export class MainBodyComponent implements OnInit {
   ngOnInit(): void {
     this.createEducationSectionData();
     this.createWorkXpSectionData();
+    this.createSkillsString();
+
   }
+
+  createSkillsString() {
+    this.skillsSection = [
+      'Java', 'Maven', 'Selenium', 'Cucumber', 'Protractor', 'Typescript', 'NodeJs', 'Angular',
+      'AmCharts', 'HTML', 'SCSS/CSS', 'Cypress', 'Serverless', 'Terraform', 'Postman', 'Insomnia',
+      'Git', 'SQL', 'BitBucket', 'Confluence', 'Jira', 'AWS', 'Jenkins', 'C', 'C++', 'JSON', 'Spring'
+    ];
+  }
+
   createWorkXpSectionData() {
     const rolesList: Role[] =
       [{

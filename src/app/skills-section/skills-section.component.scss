@@ -1,0 +1,27 @@
+.subtitle {
+    color: #2AB6DD;
+}
+
+.title, .curly, .sk_primary, .separator{
+    color: #ffff;
+}
+
+.sk_secundary{
+    color: #6EEAB7;
+}
+
+* {
+    font-size: 18px;
+    line-height: 120%
+}
+
+.skill_list{
+    padding-left: 30px;
+    width: 90%;
+    text-align: justify;
+
+    border-left: 1px solid #425677;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+}
