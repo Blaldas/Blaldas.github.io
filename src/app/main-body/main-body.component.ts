@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Education, Role, WorkXpSection } from 'src/utils/models/section';
+import { Education, Publications, Role, WorkXpSection } from 'src/utils/models/section';
 
 @Component({
   selector: 'app-main-body',
@@ -17,6 +17,7 @@ export class MainBodyComponent implements OnInit {
   educationSection: Education[] = [];
   workXpSection: WorkXpSection[] = []
   skillsSection: string[] = [];
+  publicationsSection: Publications[] = [];
 
   constructor() {
 
@@ -75,6 +76,21 @@ export class MainBodyComponent implements OnInit {
     this.createEducationSectionData();
     this.createWorkXpSectionData();
     this.createSkillsString();
+    this.createPublicationsSection();
+
+  }
+
+  createPublicationsSection() {
+    this.publicationsSection = [
+      {
+        title: "3iCubing: An Interval Inverted Index Approach to Data Cubes",
+        link: "https://ieeexplore.ieee.org/document/9678346/",
+        intro: 
+          "The increase in the amounts of information used to analyze data is problematic since the memory necessary to store and process it is getting quite big."+
+          "In this paper, we propose two new data cubing algorithms: 3iCubing and M3iCubing." +
+          "3iCubing is a Frag-Cubing-based algorithm that uses the interval inverted index representation, while M3iCubing uses both a normal and interval inverted index data representation."
+      }
+    ];
 
   }
 

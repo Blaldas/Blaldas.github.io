@@ -1,0 +1,42 @@
+.subtitle {
+    color: #2AB6DD;
+    margin-top: -10px;
+}
+
+.curly, .pub_title{
+    color: #ffff;
+}
+
+.pub_title{
+    width: 900px;
+}
+
+#text{
+    text-align: justify;
+    white-space: pre-wrap;
+    color: #425677;
+    padding-left: 30px;
+    margin: 0;
+    width: 90%;
+}
+
+.publications{
+  margin-left: 30px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}  
+
+
+.link{
+    margin-left: 35px;
+    margin-top: -10px;
+    color: #EFD0AF;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.content{
+    border-left: 1px solid #425677;
+}

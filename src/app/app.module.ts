@@ -8,6 +8,7 @@ import { EducationSectionComponent } from './education-section/education-section
 import { MainBodyComponent } from './main-body/main-body.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
+import { PublicationsSectionComponent } from './publications-section/publications-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SkillsSectionComponent } from './skills-section/skills-section.componen
     EducationSectionComponent,
     MainBodyComponent,
     WorkExperienceComponent,
-    SkillsSectionComponent
+    SkillsSectionComponent,
+    PublicationsSectionComponent
   ],
   imports: [
     BrowserModule,

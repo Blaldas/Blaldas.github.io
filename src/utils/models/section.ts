@@ -16,3 +16,9 @@ export type Role = {
     period: string;
     tasks: string[]
 }
+
+export type Publications = {
+    title: string;
+    link: string;
+    intro: string;
+}

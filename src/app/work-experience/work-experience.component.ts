@@ -13,8 +13,6 @@ export class WorkExperienceComponent implements OnInit {
   sectionName = "Work Experience";
   curly_open = ' {';
   curly_close = '}';
-  square_open = '[';
-  square_close = ']';
 
   constructor() { }
 
