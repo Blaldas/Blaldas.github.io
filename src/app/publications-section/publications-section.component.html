@@ -2,16 +2,16 @@
     <p><span class="subtitle">{{sectionName}}</span> <span class="curly">{{curly_open}}</span></p>
 </div>
 <div class="content">
-<div *ngFor="let publication of data; let i = index" class="publications">
-    <table>
-        <tr>
-            <td class="pub_title">{{publication.title}}</td>
-            <td>
-                <div (click)="goToExternal(i)" class="link">Access link</div>
-            </td>
-        </tr>
-    </table>
-    <p id="text">{{publication.intro}}</p>
-</div>
+    <div *ngFor="let publication of data; let i = index" class="publications">
+        <table>
+            <tr>
+                <td class="pub_title">{{publication.title}}</td>
+                <td>
+                    <div (click)="goToExternal(i)" class="link">Access link</div>
+                </td>
+            </tr>
+        </table>
+        <p id="text">{{publication.intro}}</p>
+    </div>
 </div>
 <p class="curly curly_close">{{curly_close}}</p>

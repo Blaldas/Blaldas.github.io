@@ -9,6 +9,7 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
 import { PublicationsSectionComponent } from './publications-section/publications-section.component';
+import { SocialsSectionComponent } from './socials-section/socials-section.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PublicationsSectionComponent } from './publications-section/publication
     MainBodyComponent,
     WorkExperienceComponent,
     SkillsSectionComponent,
-    PublicationsSectionComponent
+    PublicationsSectionComponent,
+    SocialsSectionComponent
   ],
   imports: [
     BrowserModule,

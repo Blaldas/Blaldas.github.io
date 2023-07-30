@@ -1,0 +1,13 @@
+<div>
+    <p><span class="subtitle">{{sectionName}}</span> <span class="curly">{{curly_open}}</span></p>
+</div>
+<div class="content">
+    <div *ngFor="let social of data;" class="publications">
+        <table>
+            <tr>
+                <div (click)="goToExternal(social.name)" class="link">{{social.name}}</div>
+            </tr>
+        </table>
+    </div>
+</div>
+<p class="curly curly_close">{{curly_close}}</p>

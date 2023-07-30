@@ -1,0 +1,26 @@
+.subtitle {
+    color: #2AB6DD;
+    margin-top: -10px;
+}
+
+.curly{
+    color: #ffff;
+}
+
+.publications{
+  margin-left: 30px;
+}  
+
+.link{
+    color: #EFD0AF;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.content{
+    border-left: 1px solid #425677;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}

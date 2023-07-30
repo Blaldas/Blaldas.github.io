@@ -18,7 +18,6 @@ export class WorkExperienceComponent implements OnInit {
 
   ngOnInit(): void {
     this.processWorkXpRoleTasks();
-    console.log(this.data);
   }
 
   processWorkXpRoleTasks() {

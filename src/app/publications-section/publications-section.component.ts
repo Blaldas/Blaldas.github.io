@@ -9,9 +9,8 @@ import { Publications } from 'src/utils/models/section';
 export class PublicationsSectionComponent implements OnInit {
 
   @Input() data: Publications[] = [];
-  linksArr: string[] = [];
 
-  sectionName = "Work Experience";
+  sectionName = "Publications";
   curly_open = ' {';
   curly_close = '}';
   
@@ -36,7 +35,6 @@ export class PublicationsSectionComponent implements OnInit {
       commentedLines[commentedLines.length -1] = '';
       
       pub.intro = commentedLines.join('.\n');
-      console.log(commentedLines);
     })
 }
 

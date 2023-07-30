@@ -22,3 +22,8 @@ export type Publications = {
     link: string;
     intro: string;
 }
+
+export type Socials = {
+    name: string;
+    link: string;
+}
