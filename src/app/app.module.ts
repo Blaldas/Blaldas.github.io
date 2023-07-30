@@ -10,6 +10,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
 import { PublicationsSectionComponent } from './publications-section/publications-section.component';
 import { SocialsSectionComponent } from './socials-section/socials-section.component';
+import { VerticalCounterComponent } from './vertical-counter/vertical-counter.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SocialsSectionComponent } from './socials-section/socials-section.compo
     WorkExperienceComponent,
     SkillsSectionComponent,
     PublicationsSectionComponent,
-    SocialsSectionComponent
+    SocialsSectionComponent,
+    VerticalCounterComponent
   ],
   imports: [
     BrowserModule,

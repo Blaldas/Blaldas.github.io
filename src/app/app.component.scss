@@ -5,4 +5,18 @@
   /* Add !important to overwrite all elements */
   font-size: 18px;
 
+  .components{
+    display: inline-block;
+    margin-top: -50px;
+  }
+
+  .body{
+    width: 97%;
+
+  }
+  .counter{
+    width: 3%;
+
+  }
+
 }
