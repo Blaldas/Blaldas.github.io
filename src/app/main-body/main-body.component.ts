@@ -87,7 +87,7 @@ export class MainBodyComponent implements OnInit {
     this.socialsSection = [
       {
         name: "GitHub",
-        link: "github.com/blaldas/",
+        link: "https://github.com/blaldas/",
       },
       {
         name: "LinkedIn",
