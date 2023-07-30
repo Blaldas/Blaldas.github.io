@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class VerticalCounterComponent implements OnInit {
 
   counter: number[] = [];
-  nLines: number = 64;
+  nLines: number = 63;
 
   constructor() { }
 
