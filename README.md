@@ -2,7 +2,7 @@
 Personal Website.
 
 ## Credits
-Design made by Érica Oliveira - [GitHub](https://github.com/thatfulana) [LinedIn](https://www.linkedin.com/in/%C3%A9rica-oliveira-395a61266/)
+Design made by Érica Oliveira - [Behance](https://www.behance.net/thatfulana?tracking_source=search_projects%7Cpdf) [GitHub](https://github.com/thatfulana) [LinedIn](https://www.linkedin.com/in/%C3%A9rica-oliveira-395a61266/)
 
 ## Design
 The design prototypes for this web app can be found in here.
