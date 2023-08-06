@@ -11,6 +11,7 @@ import { SkillsSectionComponent } from './skills-section/skills-section.componen
 import { PublicationsSectionComponent } from './publications-section/publications-section.component';
 import { SocialsSectionComponent } from './socials-section/socials-section.component';
 import { VerticalCounterComponent } from './vertical-counter/vertical-counter.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VerticalCounterComponent } from './vertical-counter/vertical-counter.co
     SkillsSectionComponent,
     PublicationsSectionComponent,
     SocialsSectionComponent,
-    VerticalCounterComponent
+    VerticalCounterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
