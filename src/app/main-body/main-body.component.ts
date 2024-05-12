@@ -20,58 +20,7 @@ export class MainBodyComponent implements OnInit {
   publicationsSection: Publications[] = [];
   socialsSection: Socials[] = [];
 
-  constructor() {
-
-
-
-    /*
-        const workExp: Section = {
-          title: "Work Experience",
-          list: [{
-            name: "Research Intern",
-            date: "03/2021 - 09/2021",
-          },
-          {
-            name: "Experienced Programmer",
-            date: "11/2021 - Present",
-          }],
-        };
-        this.data.push(workExp);
-    
-        const skills: Section = {
-          title: "Skills",
-          list: [
-            "SQL",
-            "Java",
-            "Typescript"
-          ],
-        };
-        this.data.push(skills);
-    
-        const publications: Section = {
-          title: "Publications",
-          list: [{
-            name: "3iCubing: An Interval Inverted Index Approach to Data Cubes",
-            link: "https://ieeexplore.ieee.org/document/9678346",
-            text: "two data mining algorithms specialized in low memory consumption during the data representation phase"
-          }]
-        };
-        this.data.push(publications);
-    
-        const socials: Section = {
-          title: "Contacts",
-          list: [{
-            name: "GitHub",
-            link: "github.com/blaldas/",
-          },
-          {
-            name: "LinkedIn",
-            link: "https://www.linkedin.com/in/marco-domingues-mk14v5-blaldas/",
-          }]
-        };
-        this.data.push(socials);
-    */
-  }
+  constructor() {}
 
   ngOnInit(): void {
     this.createEducationSectionData();
@@ -119,7 +68,7 @@ export class MainBodyComponent implements OnInit {
   }
 
   createWorkXpSectionData() {
-    const rolesList: Role[] =
+    const deloitteRolesList: Role[] =
       [{
         name: "Automation/Manual Tester",
         period: "11/2021 - Present",
@@ -151,18 +100,37 @@ export class MainBodyComponent implements OnInit {
         ],
       }];
 
+      const nttDataRolesList: Role[] =
+      [{
+        name: "Senior Automation Specialist",
+        period: "10/2023 - Present",
+        tasks: [
+          "Test planning, execution and reporting",
+          "Technical support for the junior colleagues",
+          "Team leadership tasks when required",
+          "Mantainance, update and upgrade of a previously created test environment",
+          "Development of tests to a new platform from the ground up - using and modifying an existing framework",
+          "Technical validation for new hires"
+        ],
+      }];
+
 
     this.workXpSection = [{
       title: "Experienced Programmer",
       place: "Deloitte Portugal",
-      roles: rolesList,
+      roles: deloitteRolesList,
+    },
+    {
+      title: "Testing Senior Specialist",
+      place: "NTT DATA Portugal",
+      roles: nttDataRolesList,
     }];
   }
 
   createEducationSectionData() {
     //education
     this.educationSection.push({
-      title: "Bachelor's Degree -  Computer Engineer",
+      title: "Bachelor's Degree - Computer Science and Engineering",
       period: "09/2018 - 09/2021",
       place: "Polytechnic Institute of Coimbra",
       grade: "14",
