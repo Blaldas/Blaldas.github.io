@@ -19,7 +19,7 @@ The project is being done using the following frameworks:
 ## Deployment
 Deployment of the project for GitHub Pages is made using the *docs* folder.
 The defined base url is _/blaldas/_.
-In order to achieve the pretended result the following command is ran.
+In order to achieve the pretended result the following command is run:
 **ng build --base-href blaldas --output-path docs**
 
 Other development can be done, as this project was done using an agile-like workflow.
