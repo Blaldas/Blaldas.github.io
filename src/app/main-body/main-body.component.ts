@@ -87,17 +87,6 @@ export class MainBodyComponent implements OnInit {
           "Special focus on back-end and amcharts",
           "Active presence on meetings - special focus on refinements",
         ],
-      },
-      {
-        name: "Testing Senior Specialist",
-        period: "10/2023 - Present",
-        tasks: [
-          "Test planning, execution and reporting",
-          "Support for the junior colleagues",
-          "Mantainance, update and upgrade of a previously created test environment",
-          "Development of tests to a new platform from the ground up - using and modifying an existing framework",
-          "Technical validation for new hires"
-        ],
       }];
 
       const nttDataRolesList: Role[] =
