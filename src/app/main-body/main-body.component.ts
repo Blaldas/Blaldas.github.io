@@ -71,7 +71,7 @@ export class MainBodyComponent implements OnInit {
     const deloitteRolesList: Role[] =
       [{
         name: "Automation/Manual Tester",
-        period: "11/2021 - Present",
+        period: "11/2021 - 07/2023",
         tasks: [
           "Developed and managed automatic tests to ensure product quality",
           "Communicated with client on issues, developed fixes and progress",
